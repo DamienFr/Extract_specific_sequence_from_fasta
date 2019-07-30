@@ -1,4 +1,4 @@
-# Extract_specific_sequence_from_fasta
+# Extract_specific_sequences_from_fasta
 
 # DESCRIPTION
 
@@ -8,7 +8,7 @@
 
 # USAGE
 
-	perl extract_specific_sequence_from_fasta.pl  -c csv.csv -i in.fasta [-f 2] [-o output_file] [-s ";"]
+	perl Extract_specific_sequences_from_fasta  -c csv.csv -i in.fasta [-f 2] [-o output_file] [-s ";"]
 
 # OPTIONS
 
