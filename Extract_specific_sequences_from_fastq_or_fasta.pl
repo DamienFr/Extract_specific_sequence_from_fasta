@@ -95,7 +95,7 @@ sub openfile{
 my $fastq_in ;
 my $fastq_out;
 
-if($input_type = "fastq"){
+if($input_type eq "fastq"){
 
  $fastq_in  = Bio::SeqIO->new( -file => $fastq_file,       -format => 'fastq' );
  $fastq_out = Bio::SeqIO->new( -file => ">" . $out, -format => 'fastq' );
